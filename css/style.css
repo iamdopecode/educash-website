@@ -96,3 +96,11 @@
 }
 
 /* -------- hero ends --------- */
+
+/* --------- about section ----------- */
+ .about{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
