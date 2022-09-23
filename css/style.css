@@ -122,6 +122,8 @@
   background-color: white;
   border: 1px solid black;
   transition: 0.3s ease-in-out;
+  
+ 
 }
 
 .btn a {
@@ -142,14 +144,85 @@
 
 /* -------- hero ends --------- */
 
-/* --------- about section ----------- */
-<<<<<<< Updated upstream
-.about {
-  background-image: url();
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+
+.about .column{
+display: flex;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #FFFFFF;
+padding: 3rem;
+
+
 }
-=======
- 
->>>>>>> Stashed changes
+
+.about .column .h1 {
+  padding: 3rem 2rem;
+  text-align:left;
+  
+}
+
+.heading {
+  
+color:#FFFFFF;
+font-family: 'Viga';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 94px;
+  
+}
+
+.heading p {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+}
+
+
+
+.image {
+
+width: 457px;
+height: 459px;
+left: 872px;
+top: 268px;
+}
+
+.token .column {
+  display: flex;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 3rem;
+}
+
+.token .image {
+width: 414px;
+height: 399px;
+left: 113px;
+top: 304px;
+}
+
+.token h1{
+font-family: 'Viga';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 94px;
+color: #FFFFFF;
+text-align: end;
+
+}
+
+.token p {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: right;
+color: #FFFFFF;
+}
+
