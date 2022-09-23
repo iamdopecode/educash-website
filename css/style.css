@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@200;400;600&family=Poppins:wght@100;200;300;400&display=swap');
 
 :root {
   /* colors */
@@ -80,6 +81,7 @@
 
 .hero {
   padding: 5rem;
+  padding-right: 2rem;
   display: flex;
 }
 
@@ -88,6 +90,8 @@
   display: flex;
   flex-direction: column;
 }
+
+
 .hero .hero-img img{
   width: 600px;
   height: 600px;
@@ -105,23 +109,30 @@
 
 .hero .info h4 {
   font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 200;
+  padding-bottom: 20px;
 }
 
 .btn {
   width: 8rem;
   aspect-ratio: 3/1;
-  border-radius: 1.5rem;
-  background-color: transparent;
-  border: 3px solid var(--color-primary);
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid black;
   transition: 0.3s ease-in-out;
 }
 
 .btn a {
-  color: var(--color-primary);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: black;
 }
 
 .btn:hover {
   background-color: var(--color-primary);
+  border: 2px solid var(--color-secondary);
   transform: scale(1.1);
 }
 
