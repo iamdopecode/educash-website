@@ -18,6 +18,7 @@
   padding: 0;
   outline: 0;
   border: 0;
+  box-sizing: border-box;
   appearance: 0;
   list-style: none;
   text-decoration: none;
@@ -33,11 +34,17 @@
 /* -------- nav starts --------- */
 
 .nav-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #22252a;
+  padding: 2rem 9%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  height: 8vh;
+  z-index: 1000;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .nav-links {
@@ -47,7 +54,7 @@
 }
 
 .nav-links a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -56,7 +63,7 @@
   width: 198px;
   height: 132px;
   left: 114px;
-  top: 54px;
+  top: 0;
 }
 
 /* ---------- nav ends ---------- */
@@ -98,9 +105,9 @@
 /* -------- hero ends --------- */
 
 /* --------- about section ----------- */
- .about{
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+.about {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
