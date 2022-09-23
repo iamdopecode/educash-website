@@ -46,12 +46,12 @@
   right: 0;
   left: 0;
   background: #22252a;
-  padding: 2rem 9%;
+  padding: 2.3rem 9%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1rem rgba(210, 210, 210, 0.1);
 }
 
 .nav-links {
@@ -62,15 +62,16 @@
 
 .nav-links a {
   color: white;
+  font-size: 20px;
   text-decoration: none;
 }
 
 .logo img {
   position: absolute;
-  width: 198px;
-  height: 132px;
+  width: 127px;
+  height: 85px;
   left: 114px;
-  top: 0;
+  top: 10px;
 }
 
 /* ---------- nav ends ---------- */
@@ -79,14 +80,31 @@
 
 .hero {
   padding: 5rem;
+  display: flex;
 }
 
 .hero.info {
   height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.hero .hero-img img{
+  width: 600px;
+  height: 600px;
 }
 
-.hero.info h4 {
-  padding: 5rem;
+.hero .info h1{
+  padding-top: 124px;
+  font-size: 70px;
+  color: white;
+  width: 400px;
+}
+.hero .info h1 pre {
+  font-family: "Viga", sans-serif;
+}
+
+.hero .info h4 {
+  font-size: 24px;
 }
 
 .btn {
