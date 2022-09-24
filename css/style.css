@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@200;400;600&family=Poppins:wght@100;200;300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@200;400;600&family=Poppins:wght@100;200;300;400&display=swap");
 
 :root {
   /* colors */
@@ -25,14 +25,13 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
-  
 }
- body{
-  background-image: url('../images/long-background.png');
+body {
+  background-image: url("../images/long-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
- }
+}
 .container {
   width: var(--container-width-lg);
   margin: 2rem auto;
@@ -91,13 +90,12 @@
   flex-direction: column;
 }
 
-
-.hero .hero-img img{
+.hero .hero-img img {
   width: 600px;
   height: 600px;
 }
 
-.hero .info h1{
+.hero .info h1 {
   padding-top: 124px;
   font-size: 70px;
   color: white;
@@ -122,15 +120,12 @@
   background-color: white;
   border: 1px solid black;
   transition: 0.3s ease-in-out;
-  
- 
 }
 
 .btn a {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: black;
-  
 }
 
 .btn:hover {
@@ -145,54 +140,44 @@
 
 /* -------- hero ends --------- */
 
-
-.about .column{
-display: flex;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-color: #FFFFFF;
-padding: 3rem;
-
-
+.about .column {
+  display: flex;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  padding: 3rem;
 }
 
 .about .column .h1 {
   padding: 3rem 2rem;
-  text-align:left;
-  
+  text-align: left;
 }
 
 .heading {
-  
-color:#FFFFFF;
-font-family: 'Viga';
-font-style: normal;
-font-weight: 400;
-font-size: 70px;
-line-height: 94px;
-  
+  color: #ffffff;
+  font-family: "Viga";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 94px;
 }
 
 .heading p {
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
-
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
 }
 
-
-
 .image {
-
-width: 457px;
-height: 459px;
-left: 872px;
-top: 268px;
+  width: 457px;
+  height: 459px;
+  left: 872px;
+  top: 268px;
 }
 
 .token .column {
@@ -202,30 +187,28 @@ top: 268px;
 }
 
 .token .image {
-width: 414px;
-height: 399px;
-left: 113px;
-top: 304px;
+  width: 414px;
+  height: 399px;
+  left: 113px;
+  top: 304px;
 }
 
-.token h1{
-font-family: 'Viga';
-font-style: normal;
-font-weight: 400;
-font-size: 70px;
-line-height: 94px;
-color: #FFFFFF;
-text-align: end;
-
+.token h1 {
+  font-family: "Viga";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 94px;
+  color: #ffffff;
+  text-align: end;
 }
 
 .token p {
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
-text-align: right;
-color: #FFFFFF;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: right;
+  color: #ffffff;
 }
-
