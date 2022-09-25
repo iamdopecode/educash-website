@@ -303,19 +303,106 @@ header .nav-bar label {
   padding: 0.2rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   html {
-    font-size: 55%;
+    font-size: 65%;
   }
 
   .nav-bar {
-    padding: 4rem 9%;
+    padding: 3.5rem 9%;
+  }
+  .nav-bar .nav-links{
+    font-size: 55%;
+  
   }
 
   .nav-links a {
-    margin-left: 8rem;
+    margin-left: 7rem;
   }
+  .hero .hero-img img {
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+  }
+  .hero .info h1 {
+    padding-top: 128px;
+    font-size: 50px;
+    color: white;
+    width: 350px;
+  }
+  
+  .hero .info h4 {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 200;
+    padding-bottom: 20px;
+  }
+  .btn {
+    width: 8rem;
+    aspect-ratio: 2/1;
+    border-radius: 10px;
+  }
+  .btn a {
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .about .column {
+    font-size: 20px;
+
+  }
+  
+  .about .column .h1 {
+    padding: 2.5rem 1.5rem;
+    text-align: left;
+  }
+  
+  .heading {
+    font-size: 60px;
+
+  }
+  
+  .heading p {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .image {
+    height: 700px;
+  }
+  .image img{
+    width: 350;
+  }
+
+  .token .column {
+    padding: 2.8rem;
+    border-radius: 30px;
+    margin-top: 160px;
+  }
+  
+  .token h1 {
+    font-size: 60px;
+  }
+  
+  .token p {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .token-btn {
+    padding: 20px;
+  }
+  .juverse-btn {
+    margin: 25px 10px;
+    width: 8.2rem;
+    padding: 5px;
+    aspect-ratio: 3/1;
+  }
+  .juverse-btn a {
+    font-size: 15px;
+  }
+  
 }
+
+
 
 @media (max-width: 980px) {
   .nav-bar {
