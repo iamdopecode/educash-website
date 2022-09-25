@@ -176,7 +176,7 @@ header .nav-bar label {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 24px;
   color: #ffffff;
   padding: 3rem;
@@ -245,7 +245,7 @@ header .nav-bar label {
 .token p {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 24px;
   line-height: 29px;
   text-align: right;
