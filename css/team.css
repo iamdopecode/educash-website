@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@200;400;600&family=Poppins:wght@100;200;300;400&display=swap");
+
+/* =========CSS RESET======== */
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: "Viga", sans-serif;
+}
+
+
+/* ===================CSS Variables====================== */
+
+:root {
+  --primary-color: #22252A;
+  --secondary-textcolor: #D9D9D9;
+  --card-bgcolor:#353535;
+  --headcard-rectcolor:#FF3636;
+  --card-rectcolor:#3DD8CF;
+}
+
+
+/* =========BODY============== */
+
+body{
+  background: url(../images/bg.png) center center/cover;
+  /* height: 1000px; */
+  /* background-image: url(./images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover; */
+
+}
+
+/* ===============Styling Header========== */
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* ================Header Image Styling=============== */
+
+.header-img img{
+  width:150px;
+}
+/* ================Header Images Styling --> JU VERSE LOGO=============== */
+#juverse-logo{
+    margin-right: 20px;
+}
+
+/* =============Styling Team Information============= */
+
+.team-info{
+  flex-direction: column;
+  
+}
+
+/* =============Styling Team Information -- > Paragraph============= */
+.team-info p{
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    color: var(--secondary-textcolor);
+}
+
+/* ========== Card Container styling============ */
+
+.team-container{
+  margin:100px 0px
+
+}
+
+  /* ========== Card Container styling-- > Head-Red Rectangle UP============ */
+.team-container .hrect-up{
+  width: 80%;
+  background-color: var(--headcard-rectcolor);
+  height: 10px;
+  border-radius: 0px 0px 5px 5px;
+  
+}
+  /* ========== Card Container styling-- > Red Rectangle UP============ */
+.team-container .rect-up{
+  width: 80%;
+  background-color: var(--card-rectcolor);
+  height: 10px;
+  border-radius: 0px 0px 5px 5px;
+  
+}
+
+/* ========== Card Container styling-- > IMAGE============ */
+
+.team-container img{
+  width: 100px;
+  /* border-radius: 50%; */
+  padding: 20px;
+  clip-path: circle(35% at 50% 50%);
+  
+  
+}
+/* ========== Card Container styling-- > Head Image shadow ============ */
+.team-container .head-image{
+  filter: drop-shadow(0 0 15px var(--headcard-rectcolor));
+}
+/* ========== Card Container styling-- > Image shadow ============ */
+.team-container .image{
+  filter: drop-shadow(0 0 15px var(--card-rectcolor));
+}
+/* ========== Card Container styling-- > Description Text============ */
+.team-container p{
+  color: var(--secondary-textcolor);
+  padding: 30px 20px;
+ 
+}
+
+/* ========== Card Container styling-- > Red Rectangle Down============ */
+
+.team-container .hrect-down{
+  width: 80%;
+  background-color: var(--headcard-rectcolor);
+  height: 10px;
+  border-radius: 5px 5px 0px 0px;
+
+}
+
+/* ===============Styling Header========== */
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 150px;
+}
+
+/* ================Header Image Styling=============== */
+
+.footer-img img{
+width:300px;
+}
+
+/* ================Header Images Styling --> JU VERSE LOGO=============== */
+#ju-logo{
+  margin-right: 20px;
+}
+
+
+
+/* =========================Utility Classes======================== */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+  }
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px;
+  }
+  .h-primary {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+  }
+  .h-secondary {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+  }
+  .card{
+    text-align: center;
+    width: 40%;
+    border-radius: 10px;
+    height: 329px;
+    flex-direction:column ;
+    margin:0px 30px;
+    background-color:var(--card-bgcolor) ;
+    backdrop-filter: blur(5px);
+
+  }
