@@ -267,6 +267,42 @@ header .nav-bar label {
   font-size: 15px;
 }
 
+.footer .box-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  margin-top: 180px;
+}
+
+.box-container .box h3{
+  font-family: 'Viga';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  color: #FFFFFF;
+  text-align: start;
+}
+
+.box-1 h3 {
+  font-family: 'Viga';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  color: #FFFFFF;
+  text-align: end;
+}
+
+.icon img {
+  padding:0.2rem;
+}
+
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
@@ -337,3 +373,4 @@ header .nav-bar label {
     margin-left: 4rem;
   }
 }
+
