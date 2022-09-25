@@ -91,6 +91,11 @@ body {
   padding: 20px;
   clip-path: circle(35% at 50% 50%);
 }
+
+.team-container .icons img {
+  width: 40px;
+}
+
 /* ========== Card Container styling-- > Head Image shadow ============ */
 .team-container .head-image {
   filter: drop-shadow(0 0 15px var(--headcard-rectcolor));
