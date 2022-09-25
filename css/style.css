@@ -279,28 +279,28 @@ header .nav-bar label {
   margin-top: 180px;
 }
 
-.box-container .box h3{
-  font-family: 'Viga';
+.box-container .box h3 {
+  font-family: "Viga";
   font-style: normal;
   font-weight: 400;
   font-size: 45px;
   line-height: 60px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: start;
 }
 
 .box-1 h3 {
-  font-family: 'Viga';
+  font-family: "Viga";
   font-style: normal;
   font-weight: 400;
   font-size: 45px;
   line-height: 60px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: end;
 }
 
 .icon img {
-  padding:0.2rem;
+  padding: 0.2rem;
 }
 
 @media (max-width: 1200px) {
@@ -373,4 +373,3 @@ header .nav-bar label {
     margin-left: 4rem;
   }
 }
-
