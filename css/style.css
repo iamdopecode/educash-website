@@ -54,6 +54,15 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(210, 210, 210, 0.1);
 }
 
+.nav-txt{
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+.nav-txt:hover {
+  color: var(--color-primary);
+  transform: scale(1.1);
+}
+
 .nav-links {
   width: 50%;
   display: flex;
@@ -188,11 +197,11 @@ body {
   line-height: 29px;
 }
 
-.image {
-  width: 457px;
-  height: 459px;
-  left: 872px;
-  top: 268px;
+.image{
+  display: flex;
+  height: 900px;
+  align-items: center;
+  justify-content: center;
 }
 
 .token .column {
@@ -230,4 +239,19 @@ body {
   line-height: 29px;
   text-align: right;
   color: #ffffff;
+}
+.token-btn{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.juverse-btn {
+  margin: 25px 10px;
+  width: 8.2rem;
+  padding: 5px;
+  aspect-ratio: 3/1;
+}
+.juverse-btn a {
+  font-size: 15px;
 }
