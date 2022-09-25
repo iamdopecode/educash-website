@@ -33,7 +33,6 @@ body {
   height: 100vh;
 }
 .container {
- 
   width: var(--container-width-lg);
   margin: 2rem auto;
   font-family: "Viga", sans-serif;
@@ -81,7 +80,7 @@ body {
 
 .hero {
   padding: 5rem;
-  padding-right: 2rem;
+  padding-right: 10px;
   display: flex;
 }
 
@@ -114,19 +113,15 @@ body {
   padding-bottom: 20px;
 }
 
-.about-btn{
+.about-btn {
   margin: 25px 10px;
   width: 8.2rem;
   padding: 5px;
   aspect-ratio: 2.5/1;
-
 }
-.about-btn a{
+.about-btn a {
   font-size: 15px;
-
-
 }
-
 
 .btn {
   width: 8rem;
@@ -166,7 +161,7 @@ body {
   color: #ffffff;
   padding: 3rem;
   border-radius: 30px;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
 }
 
@@ -193,7 +188,7 @@ body {
   line-height: 29px;
 }
 
-.image{
+.image {
   width: 457px;
   height: 459px;
   left: 872px;
@@ -205,7 +200,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 3rem;
   border-radius: 30px;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
   margin-top: 180px;
 }
