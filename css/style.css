@@ -554,6 +554,10 @@ header .nav-bar label {
 }
 
 @media (max-width: 790px) {
+  .hero {
+    flex-direction: column-reverse;
+  }
+
   header .nav-bar label {
     visibility: visible;
     opacity: 1;
@@ -589,19 +593,80 @@ header .nav-bar label {
   header input:checked ~ label::before {
     content: "\f00d";
   }
+  
+  .heading {
+    text-align: center;
+}
 
   .logo img {
     left: 50px;
   }
+
+  .about .column {
+    font-size: 18px;
+    flex-direction: column-reverse;
+
+}
+.hero .info h1 {
+padding-top: 5px;
+}
+.image {
+  height: 140px;
 }
 
-@media (max-width: 450px) {
+.token p {
+  text-align: left;
+}
+
+.token .column {
+  flex-direction: column;
+}
+
+.token h1 {
+  text-align: center;
+}
+.token-btn {
+  justify-content: center;
+  
+}
+}
+
+@media (max-width: 480px) {
+  .hero {
+    flex-direction: column-reverse;
+  }
+
+  .hero .info h1 {
+    font-size: 35px;
+    padding-top: 5px;
+}
+
+.hero .info h4 {
+  font-size: 18px;
+}
+.token .image {
+  width: 300px;
+}
+.hero .hero-img img {
+  width: 240px;
+  height: 240px;
+}
+.hero .info h1 {
+  width: 270px;
+}
+
+
   .logo img {
     left: 30px;
   }
   header .nav-links a {
     margin-left: 4rem;
   }
+  .image img {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+}
 }
 
 /* @media (max-width: 980px) {
