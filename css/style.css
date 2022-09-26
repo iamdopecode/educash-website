@@ -603,6 +603,20 @@ header .nav-bar label {
 }
 
 @media (max-width: 790px) {
+  #about-btn{display: flex;
+    justify-content: center;
+}
+
+  .btn {
+    width: 8rem;
+    aspect-ratio: 2/1;
+    border-radius: 10px;
+}
+
+  .hero {
+    flex-direction: column-reverse;
+  }
+
   header .nav-bar label {
     visibility: visible;
     opacity: 1;
@@ -638,6 +652,10 @@ header .nav-bar label {
   header input:checked ~ label::before {
     content: "\f00d";
   }
+  
+  .heading {
+    text-align: center;
+}
 
   .logo img {
     left: 50px;
@@ -658,7 +676,6 @@ header .nav-bar label {
   }
 }
 
-@media (max-width: 450px) {
   .logo img {
     left: 30px;
   }
