@@ -305,12 +305,12 @@ header .nav-bar label {
   padding: 0.2rem;
 }
 
-.icon{
+.icon {
   display: flex;
   justify-content: space-between;
 }
 
-.icon a{
+.icon a {
   color: whitesmoke;
   font-size: 2.2rem;
 }
@@ -408,6 +408,17 @@ header .nav-bar label {
   .juverse-btn a {
     font-size: 15px;
   }
+
+  /* ------- footer ------- */
+  .icon {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .icon a {
+    color: whitesmoke;
+    font-size: 2.2rem;
+  }
 }
 
 @media (max-width: 1120px) {
@@ -472,7 +483,19 @@ header .nav-bar label {
   .juverse-btn a {
     font-size: 15px;
   }
+
+  /* ------- footer ------- */
+  .icon {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .icon a {
+    color: whitesmoke;
+    font-size: 2.4rem;
+  }
 }
+
 @media (max-width: 980px) {
   .nav-bar {
     padding: 3rem 8%;
@@ -562,6 +585,20 @@ header .nav-bar label {
   }
   .juverse-btn a {
     font-size: 15px;
+  }
+
+  /* ------- footer ------- */
+  .footer.box-container h3 {
+    font-size: 1rem;
+  }
+  .footer.icon {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer.icon a {
+    color: whitesmoke;
+    font-size: 2.2rem;
   }
 }
 
@@ -676,52 +713,54 @@ padding-top: 5px;
     border-radius: 10px;
 }
   .hero {
-    flex-direction: column-reverse;
+    flex-direction: column-reverse;}
+  /* ------- footer ------- */
+  .footer.footer-heading {
+    font-size: 50%;
+  }
+  .footer.icon {
+    display: flex;
+    justify-content: space-between;
   }
 
-  .hero .info h1 {
-    font-size: 35px;
-    padding-top: 5px;
-}
-
-.hero .info h4 {
-  font-size: 18px;
-}
-.token .image {
-  width: 300px;
-}
-.hero .hero-img img {
-  width: 240px;
-  height: 240px;
-}
-.hero .info h1 {
-  width: 270px;
-}
-.heading {
-  font-size: 49px;
-}
-
+  .footer.icon a {
+    color: whitesmoke;
+    font-size: 2.2rem;
+  }
   .logo img {
     left: 30px;
   }
   header .nav-links a {
     margin-left: 4rem;
   }
+  
   .image img {
     width: 180px;
     height: 180px;
     overflow: hidden;
-}
-
-.box-container .box h3 {
+  }
+  
+  .box-container .box h3 {
   font-size: 33px;
   
-}
-.box-1 h3 {
+  }
+  .box-1 h3 {
   font-size: 33px;
+  
+  }
+}
 
-}
-}
+
+  /* ------- footer ------- */
+  .icon {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .icon a {
+    color: whitesmoke;
+    font-size: 1.3rem;
+  }
 
 /* @media (max-width: 980px) {
   .nav-bar {
@@ -779,18 +818,3 @@ padding-top: 5px;
     margin-left: 4rem;
   }
 } */
-<<<<<<< Updated upstream
-=======
-
-@media (max-width: 400px){
-  body {
-    background: url("../images/long-background.png");
-    height: 100vh;
-  }
- 
-  .hero{
-    display: flex;
-    flex-direction: row-reverse;
-  }
-}
->>>>>>> Stashed changes
