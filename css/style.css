@@ -267,6 +267,8 @@ header .nav-bar label {
   font-size: 15px;
 }
 
+/* ------ footer ------- */
+
 .footer .box-container {
   display: flex;
   justify-content: space-between;
@@ -301,6 +303,16 @@ header .nav-bar label {
 
 .icon img {
   padding: 0.2rem;
+}
+
+.icon{
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon a{
+  color: whitesmoke;
+  font-size: 2.2rem;
 }
 
 @media (max-width: 1250px) {
@@ -725,3 +737,18 @@ padding-top: 5px;
     margin-left: 4rem;
   }
 } */
+<<<<<<< Updated upstream
+=======
+
+@media (max-width: 400px){
+  body {
+    background: url("../images/long-background.png");
+    height: 100vh;
+  }
+ 
+  .hero{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+>>>>>>> Stashed changes
