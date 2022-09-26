@@ -652,7 +652,17 @@ padding-top: 5px;
 }
 .token-btn {
   justify-content: center;
+
   
+}
+
+.box-container .box h3 {
+  font-size: 33px;
+  
+}
+.box-1 h3 {
+  font-size: 33px;
+
 }
 }
 
@@ -701,6 +711,15 @@ padding-top: 5px;
     width: 180px;
     height: 180px;
     overflow: hidden;
+}
+
+.box-container .box h3 {
+  font-size: 33px;
+  
+}
+.box-1 h3 {
+  font-size: 33px;
+
 }
 }
 
