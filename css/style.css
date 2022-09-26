@@ -566,6 +566,16 @@ header .nav-bar label {
 }
 
 @media (max-width: 790px) {
+  #about-btn{display: flex;
+    justify-content: center;
+}
+
+  .btn {
+    width: 8rem;
+    aspect-ratio: 2/1;
+    border-radius: 10px;
+}
+
   .hero {
     flex-direction: column-reverse;
   }
@@ -625,6 +635,9 @@ padding-top: 5px;
 .image {
   height: 140px;
 }
+.heading {
+  font-size: 49px;
+}
 
 .token p {
   text-align: left;
@@ -644,6 +657,14 @@ padding-top: 5px;
 }
 
 @media (max-width: 480px) {
+  #about-btn{display: flex;
+    justify-content: center;
+}
+  .btn {
+    width: 8rem;
+    aspect-ratio: 2/1;
+    border-radius: 10px;
+}
   .hero {
     flex-direction: column-reverse;
   }
@@ -666,7 +687,9 @@ padding-top: 5px;
 .hero .info h1 {
   width: 270px;
 }
-
+.heading {
+  font-size: 49px;
+}
 
   .logo img {
     left: 30px;
