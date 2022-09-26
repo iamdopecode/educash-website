@@ -23,10 +23,6 @@
 
 body {
   background: url(../images/bg.png) center center/cover;
-  /* height: 1000px; */
-  /* background-image: url(./images/bg.png);
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 
 /* ===============Styling Header========== */
@@ -63,6 +59,18 @@ body {
 }
 
 /* ========== Card Container styling============ */
+.tcontainer {
+  display: flex;
+  width: 100%;
+}
+
+#team-container3 {
+  width: 100%;
+}
+
+#head-container {
+  width: 100%;
+}
 
 .team-container {
   margin: 100px 0px;
@@ -75,7 +83,7 @@ body {
   height: 10px;
   border-radius: 0px 0px 5px 5px;
 }
-/* ========== Card Container styling-- > Red Rectangle UP============ */
+/* ========== Card Container styling-- > Blue Rectangle UP============ */
 .team-container .rect-up {
   width: 80%;
   background-color: var(--card-rectcolor);
@@ -91,11 +99,6 @@ body {
   padding: 20px;
   clip-path: circle(35% at 50% 50%);
 }
-
-.team-container .icons img {
-  width: 40px;
-}
-
 /* ========== Card Container styling-- > Head Image shadow ============ */
 .team-container .head-image {
   filter: drop-shadow(0 0 15px var(--headcard-rectcolor));
@@ -119,7 +122,7 @@ body {
   border-radius: 5px 5px 0px 0px;
 }
 
-/* ===============Styling Header========== */
+/* ===============Styling Footer========== */
 
 .footer {
   display: flex;
@@ -128,14 +131,14 @@ body {
   padding: 15px 150px;
 }
 
-/* ================Header Image Styling=============== */
+/* ================Footer Image Styling=============== */
 
 .footer-img img {
   width: 300px;
 }
 
-/* ================Header Images Styling --> JU VERSE LOGO=============== */
-#ju-logo {
+/* ================Footer Images Styling --> Wave LOGO=============== */
+#wave-logo {
   margin-right: 20px;
 }
 
@@ -160,15 +163,143 @@ body {
   font-size: 1.5rem;
   text-align: center;
   color: white;
-  font-family: "Poppins", sans-serif;
 }
 .card {
   text-align: center;
-  width: 40%;
+  width: 30%;
   border-radius: 10px;
   height: 329px;
   flex-direction: column;
   margin: 0px 30px;
   background-color: var(--card-bgcolor);
   backdrop-filter: blur(5px);
+}
+
+/* ===============================Media Queries============================ */
+
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+  /* ================Header Image Styling=============== */
+
+  .header-img img {
+    width: 120px;
+  }
+  /* ================Header Images Styling --> JU VERSE LOGO=============== */
+  #juverse-logo {
+    margin-right: 25px;
+  }
+
+  /* ================Footer Image Styling=============== */
+
+  .footer-img img {
+    width: 250px;
+  }
+
+  /* ================Footer Images Styling --> JECRC LOGO=============== */
+  #wave-logo {
+    margin-right: 10px;
+  }
+}
+@media only screen and (max-width: 900px) and (min-width: 630px) {
+
+  .header-img img {
+    width: 100px;
+  }
+  /* ========== Card Container styling============ */
+
+  .team-container {
+    margin: 50px 0px;
+  }
+  
+  #head-container {
+    width: 94%;
+    flex-wrap: wrap;
+  }
+  .tcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 94%;
+  }
+
+  #team-container3 {
+    width: 94%;
+    flex-wrap: wrap;
+  }
+
+  /* ================Footer Styling=============== */
+
+  .footer {
+    padding: 20px 100px;
+  }
+  /* ================Footer Image Styling=============== */
+
+  .footer-img img {
+    width: 200px;
+  }
+  /* ================Footer Images Styling --> JECRC LOGO=============== */
+  #wave-logo {
+    margin-right: 5px;
+  }
+    /* =========================Utility Classes======================== */
+    .card {
+      width: 40%;
+      height: 329px;
+      margin: 30px 30px;
+    }
+    .h-primary {
+      font-size: 2rem;
+    }
+    .h-secondary {
+      font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+  /* ================Header=============== */
+  .team-info{
+    margin-top: 20px;
+
+  }
+  /* ================Header Image Styling=============== */
+  .header-img img {
+    width: 80px;
+  }
+  /* ================Card Container Styling=============== */
+  
+  .tcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  #team-container3 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  #head-container {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  /* ================Footer Styling=============== */
+  .footer {
+    padding: 5px 40px;
+  }
+  /* ================Footer Image Styling=============== */
+
+  .footer-img img {
+    width: 140px;
+  }
+  /* =========================Utility Classes======================== */
+  .card {
+    width: 40%;
+    height: 329px;
+    margin: 20px 30px;
+  }
+  .h-primary {
+    font-size: 1.5rem;
+  }
+  .h-secondary {
+    font-size: 1rem;
+  }
+
 }
