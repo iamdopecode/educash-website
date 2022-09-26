@@ -311,9 +311,8 @@ header .nav-bar label {
   .nav-bar {
     padding: 3.5rem 9%;
   }
-  .nav-bar .nav-links{
+  .nav-bar .nav-links {
     font-size: 55%;
-  
   }
 
   .nav-links a {
@@ -330,7 +329,7 @@ header .nav-bar label {
     color: white;
     width: 350px;
   }
-  
+
   .hero .info h4 {
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
@@ -349,19 +348,17 @@ header .nav-bar label {
   }
   .about .column {
     font-size: 20px;
-
   }
-  
+
   .about .column .h1 {
     padding: 2.5rem 1.5rem;
     text-align: left;
   }
-  
+
   .heading {
     font-size: 60px;
-
   }
-  
+
   .heading p {
     font-size: 24px;
     line-height: 25px;
@@ -369,7 +366,7 @@ header .nav-bar label {
   .image {
     height: 700px;
   }
-  .image img{
+  .image img {
     width: 350;
   }
 
@@ -378,11 +375,11 @@ header .nav-bar label {
     border-radius: 30px;
     margin-top: 160px;
   }
-  
+
   .token h1 {
     font-size: 60px;
   }
-  
+
   .token p {
     font-size: 24px;
     line-height: 25px;
@@ -399,35 +396,31 @@ header .nav-bar label {
   .juverse-btn a {
     font-size: 15px;
   }
-  
 }
 
 @media (max-width: 1120px) {
   .nav-bar {
     padding: 3rem 8%;
   }
-  .nav-bar .nav-links{
+  .nav-bar .nav-links {
     font-size: 50%;
-  
   }
   .nav-links a {
     margin-left: 6rem;
   }
   .about .column {
     font-size: 20px;
-
   }
-  
+
   .about .column .h1 {
     padding: 2.1rem 1.1rem;
     text-align: left;
   }
-  
+
   .heading {
     font-size: 55px;
-
   }
-  
+
   .heading p {
     font-size: 20px;
     line-height: 22px;
@@ -435,7 +428,7 @@ header .nav-bar label {
   .image {
     height: 680px;
   }
-  .image img{
+  .image img {
     width: 325px;
   }
   .token .column {
@@ -443,15 +436,15 @@ header .nav-bar label {
     border-radius: 26px;
     margin-top: 120px;
   }
-  
+
   .token .image {
     height: 550px;
   }
-  
+
   .token h1 {
     font-size: 55px;
   }
-  
+
   .token p {
     font-size: 20px;
     line-height: 22px;
@@ -467,23 +460,18 @@ header .nav-bar label {
   .juverse-btn a {
     font-size: 15px;
   }
-  
- 
- 
-
 }
 @media (max-width: 980px) {
   .nav-bar {
     padding: 3rem 8%;
   }
-  .nav-bar .nav-links{
+  .nav-bar .nav-links {
     font-size: 45%;
-  
   }
   .nav-links a {
     margin-left: 4.5rem;
   }
- 
+
   .hero .hero-img img {
     width: 350px;
     height: 350px;
@@ -495,7 +483,7 @@ header .nav-bar label {
     color: white;
     width: 300px;
   }
-  
+
   .hero .info h4 {
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
@@ -514,24 +502,22 @@ header .nav-bar label {
   }
   .about .column {
     font-size: 18px;
-
   }
-  
+
   .about .column .h1 {
     padding: 2rem 1rem;
     text-align: left;
   }
-  
+
   .heading {
     font-size: 50px;
-
   }
-  
+
   .heading p {
     font-size: 20px;
     line-height: 22px;
   }
-  .image img{
+  .image img {
     width: 300px;
     height: 300px;
     overflow: hidden;
@@ -541,15 +527,15 @@ header .nav-bar label {
     border-radius: 20px;
     margin-top: 100px;
   }
-  
+
   .token .image {
     height: 300px;
   }
-  
+
   .token h1 {
     font-size: 45px;
   }
-  
+
   .token p {
     font-size: 20px;
     line-height: 22px;
@@ -565,10 +551,6 @@ header .nav-bar label {
   .juverse-btn a {
     font-size: 15px;
   }
-  
- 
- 
-  
 }
 
 @media (max-width: 790px) {
@@ -621,7 +603,6 @@ header .nav-bar label {
     margin-left: 4rem;
   }
 }
-
 
 /* @media (max-width: 980px) {
   .nav-bar {
@@ -679,3 +660,9 @@ header .nav-bar label {
     margin-left: 4rem;
   }
 } */
+
+@media screen {
+  body {
+    background: url("../images/long-background.png");
+  }
+}
