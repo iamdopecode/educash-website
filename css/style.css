@@ -28,7 +28,7 @@
 }
 body {
   background-image: url("../images/long-background.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   height: 100vh;
 }
@@ -210,7 +210,7 @@ header .nav-bar label {
 
 .image {
   display: flex;
-  height: 900px;
+  height: 750px;
   align-items: center;
   justify-content: center;
 }
@@ -660,9 +660,3 @@ header .nav-bar label {
     margin-left: 4rem;
   }
 } */
-
-@media screen {
-  body {
-    background: url("../images/long-background.png");
-  }
-}
