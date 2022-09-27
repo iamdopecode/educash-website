@@ -603,15 +603,16 @@ header .nav-bar label {
 }
 
 @media (max-width: 790px) {
-  #about-btn{display: flex;
+  #about-btn {
+    display: flex;
     justify-content: center;
-}
+  }
 
   .btn {
     width: 8rem;
     aspect-ratio: 2/1;
     border-radius: 10px;
-}
+  }
 
   .hero {
     flex-direction: column-reverse;
@@ -652,10 +653,10 @@ header .nav-bar label {
   header input:checked ~ label::before {
     content: "\f00d";
   }
-  
+
   .heading {
     text-align: center;
-}
+  }
 
   .logo img {
     left: 50px;
@@ -664,76 +665,72 @@ header .nav-bar label {
   .about .column {
     font-size: 18px;
     flex-direction: column-reverse;
+  }
+  .hero .info h1 {
+    padding-top: 5px;
+  }
+  .image {
+    height: 140px;
+  }
+  .heading {
+    font-size: 49px;
+  }
 
-}
-.hero .info h1 {
-padding-top: 5px;
-}
-.image {
-  height: 140px;
-}
-.heading {
-  font-size: 49px;
-}
+  .token p {
+    text-align: left;
+  }
 
-.token p {
-  text-align: left;
-}
+  .token .column {
+    flex-direction: column;
+  }
 
-.token .column {
-  flex-direction: column;
-}
+  .token h1 {
+    text-align: center;
+  }
+  .token-btn {
+    justify-content: center;
+  }
 
-.token h1 {
-  text-align: center;
-}
-.token-btn {
-  justify-content: center;
-
-  
-}
-
-.box-container .box h3 {
-  font-size: 33px;
-  
-}
-.box-1 h3 {
-  font-size: 33px;
-
-}
+  .box-container .box h3 {
+    font-size: 33px;
+  }
+  .box-1 h3 {
+    font-size: 33px;
+  }
 }
 
 @media (max-width: 480px) {
-
   .token .image {
     width: 315px;
-}
+  }
 
-  #about-btn{display: flex;
+  #about-btn {
+    display: flex;
     justify-content: center;
-}
+  }
   .btn {
     width: 8rem;
     aspect-ratio: 2/1;
     border-radius: 10px;
-}
+  }
   .hero {
-    flex-direction: column-reverse;}
+    flex-direction: column-reverse;
+  }
 
-    .hero .hero-img img {
-      width: 280px;
-      height: 280px;
-      overflow: hidden;
+  .hero .hero-img img {
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
   }
 
   .hero .info h1 {
     padding-top: 20px;
-    font-size: 35px;}
-
-    .hero .info h4 {
-      font-size: 18px;
+    font-size: 35px;
   }
 
+  .hero .info h4 {
+    font-size: 18px;
+  }
 
   /* ------- footer ------- */
   .footer.footer-heading {
@@ -754,22 +751,19 @@ padding-top: 5px;
   header .nav-links a {
     margin-left: 4rem;
   }
-  
+
   .image img {
     width: 180px;
     height: 180px;
     overflow: hidden;
   }
-  
+
   .box-container .box h3 {
-  font-size: 23px;
-  
+    font-size: 23px;
   }
   .box-1 h3 {
-  font-size: 23px;
-  
-}
-
+    font-size: 23px;
+  }
 
   /* ------- footer ------- */
   .icon {
@@ -781,13 +775,13 @@ padding-top: 5px;
     color: whitesmoke;
     font-size: 1.3rem;
   }
-  
-element.style {
-}
-.footer .box-container {
-    margin-top: 56px;
-}
+
+  element.style {
   }
+  .footer .box-container {
+    margin-top: 56px;
+  }
+}
 
 /* @media (max-width: 980px) {
   .nav-bar {
